@@ -10,6 +10,6 @@ def multiply(a,b):
     result = a*b
     return result
 
-def devide(a,b):
+def divide(a,b):
     result = a /b
     return result
