@@ -30,3 +30,5 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(substract(-4, 1), -5)
         self.assertEqual(substract(10, 15), -5)
         self.assertEqual(substract(10, 16), -6)
+    def test2_substract(self):
+        self.assertEqual(substract(3,6), -3)
