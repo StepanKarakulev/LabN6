@@ -29,3 +29,4 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(substract(3, 0), 3)
         self.assertEqual(substract(-4, 1), -5)
         self.assertEqual(substract(10, 15), -5)
+        self.assertEqual(substract(10, 16), -6)
